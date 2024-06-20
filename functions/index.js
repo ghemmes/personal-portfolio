@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 const cors = require('cors')({origin: true});
 admin.initializeApp()
 
-//google account credentials used to send email
+//google account credentials used to send email.
 var transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
   port: 465,
