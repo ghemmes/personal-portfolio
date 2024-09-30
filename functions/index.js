@@ -1,7 +1,7 @@
 const functions = require('firebase-functions');
 const admin = require("firebase-admin")
 const nodemailer = require('nodemailer');
-const cors = require('cors')({origin: true});
+// const cors = require('cors')({origin: true});
 admin.initializeApp()
 
 //google account credentials used to send email.
@@ -10,8 +10,8 @@ var transporter = nodemailer.createTransport({
   port: 465,
   secure: true,
   auth: {
-    user: process.env.SMTP_USERNAME,
-    pass: process.env.SMTP_PASSWORD
+    user: 'gchemmes20@gmail.com',
+    pass: 'djoorumyfdayrnkl'
   }
 });
 
@@ -26,7 +26,7 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
   //email template
   const mailOptions = {
     from: email ,
-    to: process.env.SMTP_USERNAME,
+    to: 'gchemmes20@gmail.com',
     subject: '  ' + name,
     html: `
       <p>
