@@ -1,0 +1,7 @@
+{
+  "name": "functions",
+  "description": "Deprecated Firebase Functions (static site only)",
+  "main": "index.js",
+  "dependencies": {},
+  "private": true
+}
