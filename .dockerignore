@@ -6,5 +6,4 @@ Dockerfile
 .gitignore
 dist
 build
-firebase-debug.log
 .DS_Store

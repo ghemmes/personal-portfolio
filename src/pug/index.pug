@@ -49,8 +49,6 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#contact') Contact
 
         // Page Content
         .container-fluid.p-0
@@ -351,35 +349,6 @@ html(lang='en')
                         li.list-inline-item
                             h5 Work ethic 
   
-section#contact.resume-section
-    .resume-section-content
-        h2.mb-5 Contact Me
-        form#contactForm(name='sentMessage', novalidate='')
-            .control-group
-                .form-group.floating-label-form-group.controls.mb-0.pb-2
-                    label(for='name') Name
-                    input#name.form-control(name='name', type='text', placeholder='Name', required='', data-validation-required-message='Please enter your name.')
-                    p.help-block.text-danger
-            .control-group
-                .form-group.floating-label-form-group.controls.mb-0.pb-2
-                    label(for='email') Email Address
-                    input#email.form-control(name='email', type='email', placeholder='Email Address', required='', data-validation-required-message='Please enter your email address.')
-                    p.help-block.text-danger
-           
-            .control-group
-                .form-group.floating-label-form-group.controls.mb-0.pb-2
-                    label(for='message') Message
-                    textarea#message.form-control(name='message', rows='5', placeholder='Message', required='', data-validation-required-message='Please enter a message.')
-                    p.help-block.text-danger
-            br
-            .form-group
-                button#sendMessageButton.btn.btn-primary.btn-xl(type='submit') Send
-
-            //- For success/fail messages
-            #success
-            #error
-
-
 footer#footer   
     .container
         .row

@@ -6,40 +6,6 @@ window.addEventListener('DOMContentLoaded', event => {
     if (sideNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#sideNav',
-            offset: 74,
-        });
-    };
-
-
-
-
-  
-  // const button = document.querySelector('#sendMessageButton');
-  // button.addEventListener('click', (event) => {
-
-  //   event.preventDefault();
-  
-  //   const email = document.querySelector('#email').value;
-  
-  //   const name = document.querySelector('#name').value;
-  
-  //   const message = document.querySelector('#message').value;
-  
-  //   const url = `https://us-central1-personal-website-bb395.cloudfunctions.net/sendEmail?email=${email}&name=${name}&message=${message}`;
-  
-  
-  
-  //   // Get the success and error message elements
-  
-  //   const successMessage = document.querySelector('#success');
-  
-  //   const errorMessage = document.querySelector('#error');
-  
-  
-  
-  //   // Clear any previous messages
-  
-  //   successMessage.textContent = 'successMessage';
   
   //   errorMessage.textContent = 'error';
   

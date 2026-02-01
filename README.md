@@ -2,7 +2,10 @@
 This is a personal website that serves as an online version of my resume. It contains information about my education, work experience, skills, and projects.
 
 # Built With
-The website is built using HTML, CSS, and JavaScript, and is designed to be responsive and accessible on different devices and screen sizes. It uses popular frameworks like Bootstrap and Font Awesome for styling and icons, and jQuery for DOM manipulation. In addition, I use Firebase Cloud Functions and Nodemailer to send me form responces 
+The website is built using HTML, CSS, and JavaScript, and is designed to be responsive and accessible on different devices and screen sizes. It uses Bootstrap and Font Awesome for styling and icons.
+
+# Hosting
+This site is intended for static hosting on Cloudflare Pages.
 
 # [Start Bootstrap - Resume](https://startbootstrap.com/theme/resume/)
 
